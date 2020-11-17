@@ -1,0 +1,65 @@
+.debug {
+    /*border-style: solid;*/
+}
+
+@media (min-width: 250px) {
+    .flexParent {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        font-family: Georgia;
+        background-color: lightyellow;
+    }
+}
+
+.sidebar {
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+}
+
+.mainContent {
+    flex: 1;
+    width: 100%;
+}
+
+.searchResult {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    height: 100px;;
+}
+
+.detailsPriceText {
+    border-style: solid;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+
+.detailsIngredientsText {
+    border-style: solid;
+    width: 200px;
+    padding: 20px;
+    text-align: left;
+    height: auto;
+}
+
+.instructions {
+    border-style: solid;
+    padding: 20px;
+    text-align: left;
+    height: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
